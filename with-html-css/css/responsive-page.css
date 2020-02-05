@@ -1,0 +1,143 @@
+.container {
+    margin: 0;
+    background-color: #F5F5F5;
+    width: 576px;
+}
+
+.header-text {
+    color: white;
+}
+.text-box{
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.text-box-title {
+    text-align: center;
+}
+
+.text-box-content {
+    text-align: center;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    min-height: 100px !important;
+    background-color: #3C8AEE;
+}
+
+.image-box.first {
+    background-color: #3C8AEE;
+}
+
+.image-box.second {
+    background-color: #E7BB5D;
+}
+
+.image-box.third {
+    background-color: #5DE778;
+}
+
+.image-box.end {
+    background-color: #E75D7F;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .text-box{
+        margin-top: 10px;
+        margin-right: 1%;
+    }
+
+    .text-box.first {
+        float:left;
+        width:49%;
+    }
+
+    .text-box.second {
+        float:left;
+        width:50%;
+        margin-right: 0;
+    }
+
+    .text-box.end {
+        float:left;
+        width:100%;
+    }
+
+    .image-box {
+        height: 200px;
+        margin-top: 15px;
+        float: left;
+        width: 49%;
+        margin-left: 1%;
+    }
+
+    .image-box.first  {
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .image-box.third  {
+        width: 50%;
+        margin-left: 0;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+    .text-box{
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        margin-left: 10px;
+    }
+    .text-box.first {
+        margin-left: 0;
+    }
+
+    .text-box.third {
+        margin-left: 0;
+    }
+
+    .image-box {
+        height: 200px;
+        margin-top: 15px;
+        float: left;
+        width: 32.65%;
+        margin-left: 1%;
+    }
+
+    .image-box.first {
+        margin-left: 0;
+    }
+
+    .image-box.end{
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
