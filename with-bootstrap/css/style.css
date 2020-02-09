@@ -1,0 +1,29 @@
+.bg-header{
+    background-color: #3C80E4 ;
+    min-height: 100px !important;
+}
+
+.bg-text-box{
+    background-color: lightgray;
+}
+
+.image-box {
+    height: 200px;
+    margin-top: 15px;
+}
+
+.bg-image-box-first {
+    background-color: #3C8AEE;
+}
+
+.bg-image-box-second {
+    background-color: #E7BB5D;
+}
+
+.bg-image-box-third {
+    background-color: #5DE778;
+}
+
+.bg-image-box-end {
+    background-color: #E75D7F;
+}
